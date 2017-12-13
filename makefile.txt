@@ -1,0 +1,5 @@
+cmp:
+	gcc -Wall -ansi -c checkersLib.c -o Lib.o
+	gcc -Wall -ansi -c move.c -o Move.o
+	gcc -Wall -ansi -c print_Screen.c -o Print.o
+	gcc Lib.o Move.o Print.o Game.c -o Game.exe
