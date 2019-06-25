@@ -1,4 +1,4 @@
-# GamePongMAX
+# GameCheckers
 
 -------------------------------------------------------------*- Jogo Dama -*----------------------------------------------------------------
 
@@ -6,44 +6,44 @@ Sobre o jogo:
 
 Jogo desenvolvido em linguagem C
 Para compilar execute o arquivo make.bat
-O mesmo se encarregar· de compilar e executar o programa. (As tags de compilaÁ„o podem ser visualizadas no prÛprio arquivo make.)
+O mesmo se encarregar√° de compilar e executar o programa. (As tags de compila√ß√£o podem ser visualizadas no pr√≥prio arquivo make.)
 
-PeÁas s„o separadas entre * -> peÁas vermelhas; e # -> peÁas pretas; e o ' .' que indica as casas vazias, disponÌveis para movimentaÁ„o.
+Pe√ßas s√£o separadas entre * -> pe√ßas vermelhas; e # -> pe√ßas pretas; e o ' .' que indica as casas vazias, dispon√≠veis para movimenta√ß√£o.
 
 (VERMELHA nome representativo para parte de cima do tabuleiro * )
 
 (PRETA nome representativo para parte de baixo do tabuleiro # )
 
-O Tabuleiro est· no padr„o brasileiro do jogo, que contÈm 64 casas 
-RepresentaÁ„o vertical de 1 a 8
-RepresentaÁ„o horizontal da letra (a) atÈ (h)
+O Tabuleiro est√° no padr√£o brasileiro do jogo, que cont√©m 64 casas 
+Representa√ß√£o vertical de 1 a 8
+Representa√ß√£o horizontal da letra (a) at√© (h)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-InstruÁıes de jogo:
+Instru√ß√µes de jogo:
 
-ComeÁa com peÁas VERMELHAS( * parte de cima do tabuleiro)
-1∫ = Jogador fornece ao programa a peÁa que quer mover 
+Come√ßa com pe√ßas VERMELHAS( * parte de cima do tabuleiro)
+1¬∫ = Jogador fornece ao programa a pe√ßa que quer mover 
 ex: 3b
-2∫ = Para onde deseja mover a peÁa
+2¬∫ = Para onde deseja mover a pe√ßa
 ex: 4a
 Depois para PRETAS( # parte de baixo do tabuleiro)
-1∫ = Jogador fornece ao programa a peÁa que quer mover 
+1¬∫ = Jogador fornece ao programa a pe√ßa que quer mover 
 ex: 6a
-2∫ = Para onde deseja mover a peÁa
+2¬∫ = Para onde deseja mover a pe√ßa
 ex: 5b
 
 
-O programa ir· verificar se o movimento È permitido.
-Se for mostrar· qual peÁa foi movida, se n„o indicar· que movimento È invalido.
+O programa ir√° verificar se o movimento √© permitido.
+Se for mostrar√° qual pe√ßa foi movida, se n√£o indicar√° que movimento √© invalido.
 
-Captura somente inimigo(na tentativa programa mostrar· movimento invalido, 
-N„o È permitido ‡s peÁas:
-sopro(oponete È obrigado a capturar), 
+Captura somente inimigo(na tentativa programa mostrar√° movimento invalido, 
+N√£o √© permitido √†s pe√ßas:
+sopro(oponete √© obrigado a capturar), 
 retroceder casas,
 saltar mais de uma casa, ela deve saltar apenas de uma em uma,
 saltar sobre companheiro( na tentativa programa indicara movimento invalido).
 
-Ganha o jogador que eliminar todas as peÁas do oponente
-Ou o oponente n„o poder executar nenhum movimento, chamado (peÁas trancadas).
-Pela regra original de damas (Empate n„o vitÛria).
+Ganha o jogador que eliminar todas as pe√ßas do oponente
+Ou o oponente n√£o poder executar nenhum movimento, chamado (pe√ßas trancadas).
+Pela regra original de damas (Empate n√£o vit√≥ria).
